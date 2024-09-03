@@ -20,7 +20,7 @@ const Apps = () => {
   return (
     <div className="w-full h-full flex flex-col items-center justify-center bg-[#ffffff25] backdrop-blur-[10px]">
       <div className="flex items-center justify-center gap-[116px]">
-        <ul className="flex flex-col items-center justify-center gap-2 py-[10px] w-[68px] bg-[#00000020] backdrop-blur-[25px] rounded-full border-[1px] border-[#ffffff10]">
+        <ul className="flex flex-col items-center justify-center gap-2 py-[10px] w-[68px] bg-[#00000020] backdrop-blur-[25px] rounded-full border-[1px] border-[#ffffff10] shadow-2xl">
           <li className="w-[52px] h-[52px] bg-[#00000010] rounded-full flex items-center justify-center cursor-pointer">
             <Image className="w-[31px] h-[27px] object-cover" src={a} />
           </li>

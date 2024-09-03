@@ -7,7 +7,7 @@ import plusIcon from "@/app/assets/icons/plus.svg";
 
 const MainNav = () => {
   return (
-    <ul className="flex flex-col items-center justify-center gap-2 py-[10px] w-[68px] bg-[#ffffff25] backdrop-blur-[25px] rounded-full border-[1px] border-[#ffffff10] select-none">
+    <ul className="flex flex-col items-center justify-center gap-2 py-[10px] w-[68px] bg-[#ffffff25] backdrop-blur-[25px] rounded-full border-[1px] border-[#ffffff10] shadow-2xl select-none">
       <li className="w-[52px] h-[52px] bg-[#00000010] rounded-full flex items-center justify-center cursor-pointer">
         <Image className="w-8 h-8 object-cover" src={userIcon} />
       </li>
